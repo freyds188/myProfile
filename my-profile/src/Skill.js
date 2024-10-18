@@ -6,13 +6,13 @@ const Skill = () => {
   return (
     <div className="text-center">
       <h2>Skills</h2>
-      <ul>
+ 
         <li>HTML and CSS</li>
         <li>JavaScript</li>
         <li>React.js</li>
         <li>Node.js</li>
         <li>Git and Github</li>
-      </ul>
+
       <button>
         <Link to="/">Go to Home</Link>
       </button>
