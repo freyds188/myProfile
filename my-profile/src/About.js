@@ -8,9 +8,13 @@ const About = () => {
       <h1>About Me</h1>
       <p>I'm Aldrin Frades, My career goal is to be a successful com-sci student</p>
       <button>
-        <Link to="/skill">Go to Skills</Link>
-        <Link to="/contact">Go to Contact</Link>
         <Link to="/">Go to Home</Link>
+      </button>
+      <button>
+        <Link to="/skill">Go to Skills</Link>
+      </button>
+      <button>
+        <Link to="/contact">Go to Contact</Link>
       </button>
     </div>
   );
